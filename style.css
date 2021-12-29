@@ -1,3 +1,7 @@
+::selection {
+    color: #1ab8ba;
+}
+
 @font-face {
     font-family: ringbearer;
     src: url(ringbearer.medium);
@@ -63,6 +67,16 @@ p {
     line-height: 150%;
 }
 
+.hero-text {
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-family: ringbearer;
+}
+
 #hero,
 .layer {
     min-height: 800px;
@@ -98,9 +112,10 @@ p {
     background-image: url("ha1.png");
 }
 
-.layer-overlay {
+
+/* .layer-overlay {
     background-image: url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/272781/ilu_overlay.png");
-}
+} */
 
 @media only screen and (max-width: 768px) {
     #hero {
